@@ -35,7 +35,7 @@ const routes = [
 
 const router = createRouter({
   routes,
-  history: createWebHistory(process.env.BASE_URL)
+  history: createWebHistory('/Vue3List/')
 })
 
 export default router
