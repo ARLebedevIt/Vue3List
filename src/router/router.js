@@ -3,7 +3,7 @@ import Main from '@/pages/Main'
 import About from '@/pages/About'
 import PostIdPage from '@/pages/PostIdPage'
 import PostsPageStore from '@/pages/PostsPageStore'
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import PostsPageCompositionApi from '@/pages/PostsPageCompositionApi'
 
 const routes = [
